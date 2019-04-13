@@ -1,0 +1,14 @@
+/*learn more button*/
+.learn-more-button {
+background-color: #79609f;
+border-color: #79609f;
+}
+
+.learn-more-button:hover {
+background-color: #9F609F;
+border-color: #9F609F;
+}
+
+.nav-color {
+  background-color: #a3a375;
+}
