@@ -17,6 +17,8 @@ body {
 /* Carousel base class */
 h1 {
   font-family: 'Pacifico', sans-serif;
+  font-size: 70px;
+  text-shadow: 1px 1px 2px black;
 }
 .carousel {
   margin-bottom: 4rem;

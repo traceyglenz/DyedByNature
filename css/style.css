@@ -12,3 +12,13 @@ border-color: #9F609F;
 .nav-color {
   background-color: #a3a375;
 }
+
+.rounded-circle {
+ border-radius: 50% !important;
+ width: 200px;
+ height: 200px;
+}
+
+.row {
+ float:left;
+}
