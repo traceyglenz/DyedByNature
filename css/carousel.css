@@ -3,6 +3,13 @@
 /* Padding below the footer and lighter body text */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Pacifico');
 
+/* media query */
+@include media-breakpoint-up(lg) {
+  .row {
+    display: block;
+  }
+}
+
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
