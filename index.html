@@ -25,17 +25,17 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#YarnFeature">Yarns</a>
+        </li>
         <li class="nav-item active">
-          <a class="nav-link" href="Dyed-Feature">About <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#DyedFeature">Natural Dyes<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://getbootstrap.com/docs/4.3/examples/carousel/#">Yarns</a>
+          <a class="nav-link" href="#PatternFeature">Patterns & Kits</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://getbootstrap.com/docs/4.3/examples/carousel/#">Kits/Patterns</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://getbootstrap.com/docs/4.3/examples/carousel/#">Contact</a>
+          <a class="nav-link" href="#StoryFeature">Our Story</a>
         </li>
       </ul>
       <form class="form-inline mt-2 mt-md-0">
@@ -65,7 +65,7 @@
              <div class="text-left d-none d-lg-block">
              &nbsp;<h3>Local and loved, our sheep live in Washington County, NY, where our shepherdess works hard to keep things organic and natural.</h3>
              </div>
-           <p><a class="btn btn-lg btn-primary learn-more-button"  href="https://getbootstrap.com/docs/4.3/examples/carousel/#" role="button">Learn more</a></p>
+           <p><a class="btn btn-lg btn-primary learn-more-button"  href="#StoryFeature" role="button">Learn more</a></p>
            </div>
           </div>
           </div>
@@ -78,7 +78,7 @@
               <div class="text-left d-none d-lg-block">
               &nbsp;<h3>As suggested by the name, natural dyeing involves making dyes from ingredients like flowers and vegetables.</h3>
               </div>
-            <p><a class="btn btn-lg btn-primary learn-more-button" href="https://getbootstrap.com/docs/4.3/examples/carousel/#" role="button">Learn more</a></p>
+            <p><a class="btn btn-lg btn-primary learn-more-button" href="#DyedFeature" role="button">Learn more</a></p>
             </div>
             </div>
           </div>
@@ -92,7 +92,7 @@
        <div class="text-left d-none d-lg-block">
        &nbsp;<h3>Have you ever wanted to dye your own yarn our create your own pattern? Dive in to the exciting world of dyeing!</h3>
      </div>
-       <p><a class="btn btn-lg btn-primary learn-more-button" href="https://getbootstrap.com/docs/4.3/examples/carousel/#" role="button">Learn more</a></p>
+       <p><a class="btn btn-lg btn-primary learn-more-button" href="#PatternFeature" role="button">Learn more</a></p>
       </div>
     </div>
     </div>
@@ -124,8 +124,8 @@
     </div> -->
 
   <div class="row">
-      <div class="col-lg-4">
-     <img class="rounded-circle" src="img/fingering.jpg" alt="Fingering Yarn">
+      <div class="col-lg-4"> <a name="YarnFeature">
+     <img class="rounded-circle" src="img/fingering.jpg" alt="Fingering Yarn"></a>
      <div class="card-body">
        <h2 class="card-title">Fingering Yarn</h2>
        <p class="card-text">Size: 500 yd/4.3 oz (457m/122g) skeins<br>
@@ -171,17 +171,6 @@
     </div>
   </div>
 
-        <!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-        <h2>Heading</h2>
-        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-        <p><a class="btn btn-secondary" href="https://getbootstrap.com/docs/4.3/examples/carousel/#" role="button">View details »</a></p>
-      </div><! /.col-lg-4 -->
-      <!-- <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-secondary" href="https://getbootstrap.com/docs/4.3/examples/carousel/#" role="button">View details »</a></p>
-      </div><! /.col-lg-4 -->
     </div><!-- /.row -->
 
 
@@ -190,9 +179,9 @@
     <hr class="featurette-divider">
 
     <div class="row featurette">
-      <a name="Dyed-Feature">
+
       <div class="col-md-7">
-        <h2 class="featurette-heading">Dying with Nature. <span class="text-muted"> It’ll blow your mind.</span></h2>
+        <h2 class="featurette-heading"><a name="DyedFeature">Dying with Nature. </a><span class="text-muted"> It’ll blow your mind.</span></h2>
         <p class="lead">My passion is incorporating nature into the colors of my yarn. Using marigolds, black walnuts and indigo on locally spun wool. I know that some natural dyers are careful to separate the whole plant matter from the dye before putting in the fiber, but I love the variegated colors that are gained by keeping everything in the mix.</p>
       </div>
       <div class="col-md-5">
@@ -203,9 +192,9 @@
     <hr class="featurette-divider">
 
     <div class="row featurette">
-      <a name="Pattern-Feature">
+
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Patterns and Kits. <span class="text-muted"> Knitting is the new Yoga!</span></h2>
+        <h2 class="featurette-heading"><a name="PatternFeature">Patterns and Kits. </a><span class="text-muted"> Knitting is the new Yoga!</span></h2>
         <p class="lead">Our kits have everything you need to start knitting: skeins, needles and pattern; this is a great DIY project. Our philosophy is to make knitting patterns that are easy and fun to knit no matter your experience.
        If you want to help someone get started with crafting, there's no better way than with a kit. They have everything you need to create hats, scarves, cozy blankets, or cardigans! These are not just for beginners. They're a great way of having everything you need at your fingertips!</p>
       </div>
@@ -217,9 +206,9 @@
     <hr class="featurette-divider">
 
     <div class="row featurette">
-      <a name="Story-Feature">
+
       <div class="col-md-7">
-        <h2 class="featurette-heading">Our Story <span class="text-muted"> A Labor of Love!</span></h2>
+        <h2 class="featurette-heading"><a name="StoryFeature">Our Story </a><span class="text-muted"> A Labor of Love!</span></h2>
         <p class="lead">Have you ever heard of a shepherdess? Look no further than Cambridge, NY. Sue Hayes is the third generation to sheer sheep. Sue is 'little Bow Peep' with a modern twist. Sue has a give and receive relationship with her flock, as do a few members of her community. "You stratch my back and I'll shave yours."
        The sheep are taken to a local solar farm to help maintain the grass. After her beauties are sheered, the wool is then brought to the Batenkill Fiber Mill, where I pick out my wools. We are three women working separetely to create a whole product.</p>
       </div>
