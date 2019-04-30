@@ -15,13 +15,13 @@
 }
 
 .learn-more-button {
-background-color: #79609f;
-border-color: #79609f;
+background-color: #79609f !important;
+border-color: #79609f !important;
 }
 
 .learn-more-button:hover {
-background-color: #9F609F;
-border-color: #9F609F;
+background-color: #9F609F !important;
+border-color: #9F609F !important;
 }
 
 .nav-color {
