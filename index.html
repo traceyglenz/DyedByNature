@@ -19,7 +19,10 @@
   <body>
     <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top nav-color">
-    <a class="navbar-brand" href="https://getbootstrap.com/docs/4.3/examples/carousel/#">Dyed By Nature</a>
+    <!-- <a class="navbar-brand">Dyed By Nature</a> -->
+    <a class="navbar-brand" href="#">
+          <img src="img/dbn_logo_rnd_in_pot_v1_60x62_pxls.png" alt="">
+        </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -222,6 +225,29 @@
 
   </div><!-- /.container -->
 
+  <form action="/action_page.php">
+    <div class="container"
+      <label><b>Email</b><label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      <input type="checkbox" checked="checked"> Remember me
+
+      <label><b>First Name</b><label>
+      <input type="First Name" placeholder="First Name" name="First Name"
+      <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+     <div class="clearfix">
+       <button type="button" class="cancelbtn">Cancel</button>
+       <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+     </div>
+    </form>
+
 
   <!-- FOOTER -->
   <footer class="container">
@@ -231,5 +257,7 @@
 </main>
 <script src="js/jquery-3.3.1.slim.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/master.js">
 
+</script>
 </body></html>
