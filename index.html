@@ -50,7 +50,39 @@
 </header>
 
 <main role="main">
+  <!-- Modal script -->
 
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Want to receive our Newsletter?</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Name</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Name">
+              <hr>
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- Carousel  -->
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class=""></li>
@@ -221,43 +253,39 @@
 
     <hr class="featurette-divider">
 
+    <a name="ContactUS"><hr class="featurette-divider"></a>
+
+    <div class="row featurette">
+
+      <div class="col-md-4 order-md-2">
+        <h2 class="featurette-heading">Contact Us </h2>
+        <ul class="list-group">
+        <li class="list-group-item">info@dyedbynature.</li>
+        <li class="list-group-item">1234 Old Saratoga Boulevard</li>
+        <li class="list-group-item">Saratoga Springs, NY 12866</li>
+        <li class="list-group-item">Phone: 518-555-5555</li>
+
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="img/dbn_logo_rnd_in_pot_v1.png" width="500" height="500" alt="Dyed by Nature">
+      </div>
+    </div>
+
+
     <!-- /END THE FEATURETTES -->
 
   </div><!-- /.container -->
 
-  <form action="/action_page.php">
-    <div class="container"
-      <label><b>Email</b><label>
-      <input type="text" placeholder="Enter Email" name="email" required>
-
-      <label><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-
-      <label><b>Repeat Password</b></label>
-      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-      <input type="checkbox" checked="checked"> Remember me
-
-      <label><b>First Name</b><label>
-      <input type="First Name" placeholder="First Name" name="First Name"
-      <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-
-     <div class="clearfix">
-       <button type="button" class="cancelbtn">Cancel</button>
-       <button type="submit" class="signupbtn">Sign Up</button>
-      </div>
-     </div>
-    </form>
 
 
   <!-- FOOTER -->
   <footer class="container">
-    <p class="float-right"><a href="https://getbootstrap.com/docs/4.3/examples/carousel/#">Back to top</a></p>
-    <p>©2019 Dyed By Nature <a href="https://getbootstrap.com/docs/4.3/examples/carousel/#"> Privacy</a> · <a href="https://getbootstrap.com/docs/4.3/examples/carousel/#">Terms</a></p>
+    <p class="float-right"><a href="#top">Back to top</a></p>
+    <p>©2019 Dyed By Nature
   </footer>
 </main>
 <script src="js/jquery-3.3.1.slim.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/master.js">
+<script src="js/master.js"></script>
 
-</script>
 </body></html>
