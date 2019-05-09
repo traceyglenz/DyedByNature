@@ -14,6 +14,18 @@
   }
 }
 
+.btn-search {
+   color: #ccc;
+   background-color: #79609f !important;
+   border-color: #79609f !important;
+}
+
+.btn-search:hover {
+   color: #ccc;
+   background-color: #9F609F !important;
+   border-color: #9F609F !important;
+}
+
 .learn-more-button {
 background-color: #79609f !important;
 border-color: #79609f !important;
@@ -26,6 +38,10 @@ border-color: #9F609F !important;
 
 .nav-color {
   background-color: #a3a375;
+}
+
+.nav-link:hover {
+  color: rgb(255, 255, 179);
 }
 
 .rounded-circle {
@@ -69,4 +85,26 @@ background-color: #f44336;
     content: "";
     clear: both;
     display: table;
+}
+
+.fa-facebook-square {
+    color: rgb(121, 96, 159);
+  }
+
+  .fa-facebook-square:hover {
+      color: rgb(159, 96, 159);
+    }
+
+  .fa-instagram {
+      color: rgb(121, 96, 159);
+    }
+
+  .fa-instagram:hover {
+        color: rgb(159, 96, 159);
+      }
+
+/* .footer {
+    background-color: #a3a375;
+    width:auto;
+    height:3em;
 }

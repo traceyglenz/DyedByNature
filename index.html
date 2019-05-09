@@ -7,46 +7,50 @@
     <title>Dyed By Nature</title>
 
 
-    <!-- Bootstrap core CSS -->
+<!-- Bootstrap core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom CSS -->
+<!-- Custom CSS -->
 <link href="css/style.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
+<!-- Custom styles for this template -->
     <link href="css/carousel.css" rel="stylesheet">
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="fontawesome-free-5.8.2-web/fontawesome-free-5.8.2-web/css/all.min.css">
+
   <style type="text/css">.c1-ui-state-hover {background-color:yellow !important; padding:5px !important }</style></head>
   <body>
     <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top nav-color">
     <!-- <a class="navbar-brand">Dyed By Nature</a> -->
-    <a class="navbar-brand" href="#">
-          <img src="img/dbn_logo_rnd_in_pot_v1_60x62_pxls.png" alt="">
-        </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#YarnFeature">Yarns</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#DyedFeature">Natural Dyes<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#PatternFeature">Patterns & Kits</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#StoryFeature">Our Story</a>
-        </li>
-      </ul>
-      <form class="form-inline mt-2 mt-md-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </nav>
+   <a class="navbar-brand" href="#">
+         <img src="img/dbn_logo_rnd_in_pot_v1_60x62_pxls.png" alt="">
+       </a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarCollapse">
+     <ul class="navbar-nav mr-auto">
+       <li class="nav-item">
+         <a class="nav-link" href="#YarnFeature">Yarns</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="#DyedFeature">Natural Dyes</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="#PatternFeature">Patterns & Kits</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="#StoryFeature">Our Story</a>
+       </li>
+     </ul>
+     <form class="form-inline my-2 my-lg-0">
+       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+       <button class="btn btn-search btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+     </form>
+   </div>
+ </nav>
 </header>
 
 <main role="main">
@@ -75,7 +79,7 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn btn-primary" id="fire" data-dismiss="modal">Save changes</button>
         </div>
       </div>
     </div>
@@ -260,11 +264,15 @@
       <div class="col-md-4 order-md-2">
         <h2 class="featurette-heading">Contact Us </h2>
         <ul class="list-group">
-        <li class="list-group-item">info@dyedbynature.</li>
+        <li class="list-group-item">info@dyedbynature</li>
         <li class="list-group-item">1234 Old Saratoga Boulevard</li>
         <li class="list-group-item">Saratoga Springs, NY 12866</li>
         <li class="list-group-item">Phone: 518-555-5555</li>
 
+         <div class="container text-left">
+        <a href="https://www.facebook.com/dyedbynature"><i class="fab fa-facebook-square fa-2x"></i></a>
+        <a href="https://www.instagram.com/dyedbynature/"><i class="fab fa-instagram fa-2x"></i></a>
+         </div>
       </div>
       <div class="col-md-5 order-md-1">
         <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="img/dbn_logo_rnd_in_pot_v1.png" width="500" height="500" alt="Dyed by Nature">
@@ -279,7 +287,7 @@
 
 
   <!-- FOOTER -->
-  <footer class="container">
+<footer class="footer">
     <p class="float-right"><a href="#top">Back to top</a></p>
     <p>©2019 Dyed By Nature
   </footer>
