@@ -52,7 +52,7 @@ h5 {
 /* Since positioning the image, we need to help out the caption */
 /* TL 05-13-19 changed bottom: 3 to 8 */
 .carousel-caption {
-  bottom: 8rem;
+  bottom: 12rem;
   z-index: 10;
 }
 /* TL - 05-13-19 */
