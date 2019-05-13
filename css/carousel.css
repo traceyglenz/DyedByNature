@@ -50,14 +50,18 @@ h5 {
   margin-bottom: 4rem;
 }
 /* Since positioning the image, we need to help out the caption */
+/* TL 05-13-19 changed bottom: 3 to 8 */
 .carousel-caption {
-  bottom: 3rem;
+  bottom: 8rem;
   z-index: 10;
 }
+/* TL - 05-13-19 */
+.carousel-indicators {
+  bottom: 3rem;
+}
 
-/* Declare heights because of positioning of img element */
+/*  updated 05-13-19 removed the height 32rem, it wasn't doing anything*/
 .carousel-item {
-  height: 32rem;
   height: auto;
 }
 .carousel-item > img {
