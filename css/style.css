@@ -103,7 +103,14 @@ background-color: #f44336;
         color: rgb(159, 96, 159);
       }
 
-/* .footer {
+.footer {
+  background-color: #a3a375;
+  width: auto;
+  height: 5em;
+  padding: 1em;
+}
+/*
+.footer {
     background-color: #a3a375;
     width:auto;
     height:3em;
