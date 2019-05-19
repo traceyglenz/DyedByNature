@@ -15,6 +15,11 @@
   }
 }
 
+.model-content {
+  height: 373px !important;
+  width: 500px !important;
+}
+
 .btn-search {
    color: #ccc;
    background-color: #79609f !important;

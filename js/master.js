@@ -3,5 +3,7 @@ $(document).ready(function(){
 	});
 
 	$('#fire').on('click', function (e) {
-	            alert("Thank you for requesting a newsletter!");
-	            });
+							$(".modal-title").text("Thank you!");
+							$(".modal-body").text("Check your inbox for our newsletter.");
+							$(".modal-footer").text("");
+							});
