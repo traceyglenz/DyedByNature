@@ -71,7 +71,9 @@ h5 {
   height: auto;
 }
 
-
+.carousel-inner {
+  top: 40px;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
