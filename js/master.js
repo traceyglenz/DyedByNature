@@ -9,8 +9,14 @@ $(window).scroll(function() {
        }
      });
 
-	$('#fire').on('click', function (e) {
-							$(".modal-title").text("Thank you!");
-							$(".modal-body").text("Check your inbox for our newsletter. Have a great day!");
-							$(".modal-footer").text("");
-							});
+ $('#fire').on('click', function (e) {
+                 Swal.fire({
+                 title: 'Thank You!',
+                 text: 'Check your mailbox for the newsletter.',
+                 imageUrl: 'img/chunkly.jpg',
+                 imageWidth: 400,
+                 imageHeight: 200,
+                 imageAlt: 'Custom image',
+                 animation: false
+               })
+             });
